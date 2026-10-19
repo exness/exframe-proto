@@ -81,9 +81,9 @@ var file_exframe_auth_v1_auth_proto_extTypes = []protoimpl.ExtensionInfo{
 	{
 		ExtendedType:  (*descriptorpb.MethodOptions)(nil),
 		ExtensionType: (*MethodAuth)(nil),
-		Field:         52000,
+		Field:         52008,
 		Name:          "exframe.auth.v1.method",
-		Tag:           "bytes,52000,opt,name=method",
+		Tag:           "bytes,52008,opt,name=method",
 		Filename:      "exframe/auth/v1/auth.proto",
 	},
 }
@@ -92,7 +92,7 @@ var file_exframe_auth_v1_auth_proto_extTypes = []protoimpl.ExtensionInfo{
 var (
 	// A method without the option is closed for every caller.
 	//
-	// optional exframe.auth.v1.MethodAuth method = 52000;
+	// optional exframe.auth.v1.MethodAuth method = 52008;
 	E_Method = &file_exframe_auth_v1_auth_proto_extTypes[0]
 )
 
@@ -105,7 +105,7 @@ const file_exframe_auth_v1_auth_proto_rawDesc = "" +
 	"MethodAuth\x12\x16\n" +
 	"\x06scopes\x18\x01 \x03(\tR\x06scopes\x12\x16\n" +
 	"\x06public\x18\x02 \x01(\bR\x06public:U\n" +
-	"\x06method\x12\x1e.google.protobuf.MethodOptions\x18\xa0\x96\x03 \x01(\v2\x1b.exframe.auth.v1.MethodAuthR\x06methodB8Z6github.com/exness/exframe-proto/exframe/auth/v1;authv1b\x06proto3"
+	"\x06method\x12\x1e.google.protobuf.MethodOptions\x18\xa8\x96\x03 \x01(\v2\x1b.exframe.auth.v1.MethodAuthR\x06methodB8Z6github.com/exness/exframe-proto/exframe/auth/v1;authv1b\x06proto3"
 
 var (
 	file_exframe_auth_v1_auth_proto_rawDescOnce sync.Once

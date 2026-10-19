@@ -16,5 +16,5 @@ message MethodAuth {
 
 extend google.protobuf.MethodOptions {
   // A method without the option is closed for every caller.
-  MethodAuth method = 52000;
+  MethodAuth method = 52008;
 }

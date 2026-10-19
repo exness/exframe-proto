@@ -54,4 +54,4 @@ buf generate
 go test ./...
 ```
 
-The extension number `52000` and the field numbers of `MethodAuth` never change.
+The extension number `52008` and the field numbers of `MethodAuth` never change.
