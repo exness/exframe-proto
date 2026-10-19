@@ -10,8 +10,8 @@ func TestExtension(t *testing.T) {
 	t.Parallel()
 
 	ext := E_Method.TypeDescriptor()
-	if got := ext.Number(); got != 52000 {
-		t.Fatalf("extension number = %d, want 52000", got)
+	if got := ext.Number(); got != 52008 {
+		t.Fatalf("extension number = %d, want 52008", got)
 	}
 	if got := ext.FullName(); got != "exframe.auth.v1.method" {
 		t.Fatalf("extension name = %q, want exframe.auth.v1.method", got)
