@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package exframe.auth.v1;
+
+import "google/protobuf/descriptor.proto";
+
+option go_package = "github.com/exness/exframe-proto/exframe/auth/v1;authv1";
+
+// MethodAuth is the access policy of an RPC method.
+message MethodAuth {
+  // Access is granted when the caller has any of the scopes.
+  repeated string scopes = 1;
+  // Requests that fail authorization are let through and counted.
+  bool public = 2;
+}
+
+extend google.protobuf.MethodOptions {
+  // A method without the option is closed for every caller.
+  MethodAuth method = 52000;
+}
